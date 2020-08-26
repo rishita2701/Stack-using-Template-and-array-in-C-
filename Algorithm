@@ -1,0 +1,34 @@
+•	PUSH Operation
+1.	Start
+2.	Checks if the stack is full.
+3.	If the stack is full, produces an error and exit.
+4.	If the stack is not full, increments top to point next empty space.
+5.	Adds data element to the stack location, where top is pointing.
+6.	Returns success.
+7.	End
+
+•	POP Operation
+1.	Start
+2.	If the stack is empty, produces an error and exit.
+3.	If the stack is not empty, access the data element at which top is pointing.
+4.	Decreases the value of top by 1.
+5.	Returns success.
+6.	End
+
+•	IsEmpty Operation
+1.	Start
+2.	If top is less than 1 : return true
+3.	If top is not less than 1 : return false
+4.	End
+
+•	IsFull Operation
+1.	Start
+2.	Define MAXSIZE which refers to maximum elements that can be stored
+3.	If top is equal to MAXSIZE: return true
+4.	 If top is not equal to MAXSIZE: return false
+5.	End
+
+•	Peek Operation
+1.	Start
+2.	Return stack [top]
+3.	End
