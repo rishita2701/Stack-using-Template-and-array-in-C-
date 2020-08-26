@@ -1,0 +1,5 @@
+i.	To devise an algorithm to push, pop and check IsEmpty, IsFull and return top element in stack. 
+ii.	To implement the algorithm in C++ using two approaches: array and template.
+iii.	To analyze the time complexity and space complexity of two approaches: array and template.
+iv.	To understand the various operations to be performed in a stack.
+v.	To understand the concept of templates in C++.
